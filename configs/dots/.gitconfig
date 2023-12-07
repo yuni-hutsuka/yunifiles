@@ -1,0 +1,44 @@
+# .gitconfig
+
+[user]  # This is my name and email.
+name  = "yuni-hutsuka"             # My name is yuni-hutsuka.
+email = "yuni.wille999@gmail.com"  # My email is yuni.wille999@gmail.com
+
+[core]  # This is core settings.
+editor    = "nvim"    # I want to use Neovim for editing commit message.
+quotepath = false   # I'm Japanese, so I don't want Japanese file names to be garbled.
+autocrlf  = "input" # Of course, the line feed code matches Linux!
+
+[merge]  # This is the config when merging.
+ff = false  #
+
+[pull]   # This is the config when pulling.
+ff = "only"  #
+
+[push]
+default = "current"
+
+[help]  # This is the config for displaying help messages.
+autocorrect = 50  # 5sec
+
+[init]  # This is the config to run init.
+defaultBranch = "main"
+
+[commit]  # This is the config to run commit.
+template = "~/.config/gitfiles/commit_tmpl.txt"
+
+[diff]  # This is the config to run diff.
+compactionHeuristic = true
+
+[alias]  # This is the config git alias.
+# Simple shorthand aliases.
+i  = "init"              # init to i
+a  = "add"               # add to a
+c  = "commit"            # commit to c and others
+s  = "status"            # status to s and others
+ss = "status --short -b"
+b  = "branch"            # branch to b and others
+bm = "branch -m"
+bd = "branch -d"
+unstage    = "reset HEAD --"       # reset HEAD -- to unstage
+bemodified = "reset --soft HEAD^"  # reset --soft HEAD^ to bemodified

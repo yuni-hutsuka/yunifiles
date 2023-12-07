@@ -1,0 +1,25 @@
+# .gitignore
+
+# 拡張子のないファイルを追跡から外す
+*
+!*/
+!*.*
+# Makefileなどの例外
+!Makefile
+
+# 基本的にドットファイルは追跡から外す
+.*
+# 例外 - 基本
+!.scripts/
+!.gitignore
+!.editorconfig
+# 例外 - その他
+!.gitconfig
+!.latexmkrc
+!.wezterm.lua
+!.zshenv
+!.zshrc
+
+# その他追跡から外すもの
+**/runtime/
+**/lazy-lock.json
