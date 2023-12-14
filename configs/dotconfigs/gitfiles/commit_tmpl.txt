@@ -1,0 +1,18 @@
+# === Commit Message ===
+
+# === Normal Emoji Type Table ===
+# | emoji prefix     | type | meaning                                         |
+# | ---------------- | ---- | ----------------------------------------------- |
+# | :tada:           | init | 初めてのコミット（Initial Commit）              |
+# | :bookmark:       | tag  | バージョンタグ（Version Tag）                   |
+# | :sparkles:       | feat | 新機能・新しい本文（New Feature）               |
+# | :bug:            | fix  | バグ修正・誤字脱字修正（Bugfix）                |
+# | :recycle:        | ref  | リファクタリング・本文の軽微な修正(Refactoring) |
+# | :horse:          | perf | パフォーマンス・本文への加筆修正（Performance） |
+# | :books:          | docs | ドキュメント（Documentation）                   |
+# | :art:            | acss | デザインUI/UX(Accessibility)                    |
+# | :wrench:         | tool | ツール（Tooling）                               |
+# | :rotating_light: | test | テスト（Tests）                                 |
+# | :construction:   | wip  | WIP(Work In Progress)                           |
+# | :hankey:         | depr | 非推奨追加（Deprecation）                       |
+# | :wastebasket:    | rm   | 削除（Removal）                                 |

@@ -1,0 +1,52 @@
+theme = "merionette"
+
+[editor]
+
+scrolloff = 5
+mouse = true
+middle-click-paste = true
+scroll-lines = 3
+shell = ["nu"]
+line-number = "absolute"
+cursorline = true
+cursorcolumn = true
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+auto-completion = true
+auto-format = true
+auto-save = false
+idle-timeout = 400
+completion-trigger-len = 2
+completion-replace = false
+auto-info = true
+true-color = true
+undercurl = false
+rulers = []
+bufferline = "always"
+color-modes = true
+text-width = 80
+workspace-lsp-roots = []
+
+[editor.statusline]
+
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = ">"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.cursor-shape]
+
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.insert]
+
+C-p = "move_line_up"
+C-n = "move_line_down"
+C-f = "move_char_right"
+C-b = "move_char_left"
+C-a = "goto_line_start"
+C-e = "goto_line_end_newline"
