@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cargo install bat starship exa helix --locked
+cargo install bat starship exa --locked
