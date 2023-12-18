@@ -19,6 +19,7 @@
 !.wezterm.lua
 !.zshenv
 !.zshrc
+!.xmonad
 
 # その他追跡から外すもの
 **/runtime/

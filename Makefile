@@ -11,7 +11,7 @@ install:
 .PHONY: fonts
 fonts:
 	@echo "Install Fonts"
-	@sh ./.scripts/fonts.sh $(dotfiles)
+	@sh ./.scripts/fonts.sh
 
 .PHONY: dotinhome
 dotinhome:
