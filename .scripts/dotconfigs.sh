@@ -1,7 +1,9 @@
 #!/bin/sh
 
-dots_dir="$HOME/$1/configs/dotconfigs/"
-targets=`ls $HOME/$1/configs/dotconfigs/ -a`
+dots_dir="$HOME/.yunifiles/configs/dotconfigs"
+targets=`ls $HOME/.yunifiles/configs/dotconfigs -a`
+
+mkdir -p $HOME/.config
 
 for i in $targets;
 do
@@ -11,6 +13,6 @@ do
     echo -n ""
   else
     echo $i
-    # ln -fnsv $dots_dir/$i $HOME/$i
+    ln -fnsv $dots_dir/$i $HOME/.config/$i
   fi
 done

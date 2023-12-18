@@ -1,5 +1,4 @@
 #!/bin/sh
 
-./modules/languages/boot.sh
-./modules/editors/boot.sh
-./modules/tools/boot.sh
+sudo apt install zsh fontconfig make gcc clang poppler-utils curl wget
+make install
