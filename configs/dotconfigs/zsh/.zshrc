@@ -1,7 +1,11 @@
 # .zshrc
 
-# source from modules
-source $ZDOTDIR/modules/aliases.zsh
+# aliases
+alias g="git"
+alias cat="bat"
+alias ls="exa --icons --classify --long --sort=type --git"
+alias la="exa --icons --classify --long --sort=type --git --all"
+alias tree="exa --icons --classify --long --sort=type --git --all --tree --level=3"
 
 # autocd
 setopt AUTO_CD
