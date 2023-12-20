@@ -6,6 +6,7 @@ alias cat="bat"
 alias ls="exa --icons --classify --long --sort=type --git"
 alias la="exa --icons --classify --long --sort=type --git --all"
 alias tree="exa --icons --classify --long --sort=type --git --all --tree --level=3"
+alias rm="trash"
 
 # autocd
 setopt AUTO_CD
