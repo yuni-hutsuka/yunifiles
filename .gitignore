@@ -20,6 +20,7 @@
 !.zshenv
 !.zshrc
 !.xmonad
+!.spacemacs
 
 # その他追跡から外すもの
 **/runtime/
