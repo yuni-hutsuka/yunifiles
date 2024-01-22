@@ -25,3 +25,6 @@ setopt hist_ignore_dups
 
 # 開始と終了を記録
 setopt EXTENDED_HISTORY
+
+# rtxの設定
+eval "$(~/.local/bin/mise activate zsh)"
