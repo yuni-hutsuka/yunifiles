@@ -1,0 +1,4 @@
+node   lts
+deno   1.39.1
+go     1.21.5
+python 3.12.1
