@@ -14,13 +14,16 @@
 !.gitignore
 !.editorconfig
 # 例外 - その他
+!.xmonad
 !.gitconfig
 !.latexmkrc
+!.spacemacs
+!.tool-versions
 !.wezterm.lua
 !.zshenv
+!.xmobarrc.hs
+
 !.zshrc
-!.xmonad
-!.spacemacs
 
 # その他追跡から外すもの
 **/runtime/

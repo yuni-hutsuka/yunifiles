@@ -6,7 +6,6 @@ alias cat="bat"
 alias ls="exa --icons --classify --long --sort=type --git"
 alias la="exa --icons --classify --long --sort=type --git --all"
 alias tree="exa --icons --classify --long --sort=type --git --all --tree --level=3"
-alias rm="trash"
 
 # autocd
 setopt AUTO_CD
@@ -26,3 +25,6 @@ setopt hist_ignore_dups
 
 # 開始と終了を記録
 setopt EXTENDED_HISTORY
+
+# rtxの設定
+eval "$(~/.local/bin/mise activate zsh)"
